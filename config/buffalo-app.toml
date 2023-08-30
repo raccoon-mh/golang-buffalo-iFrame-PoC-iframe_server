@@ -1,5 +1,5 @@
-name = "iframeServer"
-bin = "bin/iframeServer"
+name = "iframe_server"
+bin = "bin/iframe_server"
 vcs = "git"
 with_pop = false
 with_sqlite = false
