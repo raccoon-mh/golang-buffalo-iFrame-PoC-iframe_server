@@ -12,10 +12,13 @@ const configurator = {
       application: [
         './assets/css/application.scss',
       ],
+      dashboard: [
+        './assets/css/dashboard.scss',
+      ],
     }
 
-    Glob.sync("./assets/*/*.*").forEach((entry) => {
-      if (entry === './assets/css/application.scss') {
+    Glob.sync("./assets/*/*/*.*").forEach((entry) => {
+      if (entry === './assets/css/application.scss'|| entry === './assets/css/dashboard.scss') {
         return
       }
 
